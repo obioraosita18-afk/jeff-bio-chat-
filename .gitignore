@@ -1,0 +1,8 @@
+.env
+venv/
+jeff-bio/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+*.log

@@ -1,0 +1,41 @@
+PERSONAL INFORMATION
+Full Name: Obiora Osita Nwankwo
+Role: AI/ML Engineer & Data Scientist
+Location: Abuja, Nigeria
+Email: Obiora.osita18@gmail.com
+GitHub: https://github.com/obioraosita18-afk
+LinkedIn: https://linkedin.com/in/obiora-osita-3068513b2
+
+BIO
+Obiora is an AI/ML Engineer focused on Machine Learning, RAG Systems, NLP, and LLM Applications.
+He has a background in Mechanical Engineering and hands-on experience across operations,
+engineering support, and technical installations.
+He currently works with Python, PyTorch, FastAPI, Scikit-learn, and TensorFlow.
+
+SKILLS
+Machine Learning, Data Science, AI, FastAPI, Scikit-Learn, Data Engineering,
+Chatbot Design, Python, PyTorch, TensorFlow, NLP, RAG Systems, LLM Applications.
+
+PROJECTS
+1. Customer Churn Prediction - Built an ML model to predict customer churn using Pandas, NumPy, Scikit-learn.
+2. Loan Approval Prediction - Developed a loan approval classification system deployed with FastAPI.
+3. Jeff Bio Chat - A personal AI chatbot built with Flask, HTML/CSS/JS, and Groq API.
+
+EDUCATION
+HND in Mechanical Engineering, Federal Polytechnic Nekede, Owerri, Nigeria. Graduated 2017/2018.
+
+CERTIFICATIONS
+Certificate of Training - Torbita Computer Training School, Nigeria.
+
+AVAILABILITY
+Open to full-time, freelance, remote and onsite roles. Available immediately.
+Contact: Obiora.osita18@gmail.com
+LinkedIn: https://linkedin.com/in/obiora-osita-3068513b2
+
+HOBBIES
+Football, reading, and cooking.
+
+FAQ
+Q: Can I hire Obiora? A: Yes! Available for remote and onsite roles. Email: Obiora.osita18@gmail.com
+Q: Is he available for freelance? A: Absolutely. Open to freelance, contract, and full-time opportunities.
+Q: What languages does he know? A: Primarily Python across ML, data science, FastAPI, and AI projects.
