@@ -72,11 +72,11 @@ textarea#userInput:focus{border-color:var(--accent)}
     </div>
     <nav class="quick-links">
       <p class="nav-label">Quick Questions</p>
-      <button class="quick-btn" onclick="sendQuick('What are his skills?')"> Skills</button>
-      <button class="quick-btn" onclick="sendQuick('Tell me about his projects')"> Projects</button>
-      <button class="quick-btn" onclick="sendQuick('What is his educational background?')"> Education</button>
-      <button class="quick-btn" onclick="sendQuick('Is he available for hire?')"> Hire Him</button>
-      <button class="quick-btn" onclick="sendQuick('How can I contact Obiora?')"> Contact</button>
+      <button class="quick-btn" onclick="sendQuick('What are his skills?')">⚡ Skills</button>
+      <button class="quick-btn" onclick="sendQuick('Tell me about his projects')">🚀 Projects</button>
+      <button class="quick-btn" onclick="sendQuick('What is his educational background?')">🎓 Education</button>
+      <button class="quick-btn" onclick="sendQuick('Is he available for hire?')">💼 Hire Him</button>
+      <button class="quick-btn" onclick="sendQuick('How can I contact Obiora?')">📬 Contact</button>
     </nav>
     <div class="sidebar-footer">
       <a href="https://github.com/obioraosita18-afk" target="_blank">GitHub</a>
@@ -116,7 +116,7 @@ textarea#userInput:focus{border-color:var(--accent)}
   </main>
 </div>
 <script>
-const BACKEND_URL="http://127.0.0.1:5000/chat";
+const BACKEND_URL = window.location.origin + "/chat";
 let conversationHistory=[];
 let isWaiting=false;
 const chatMessages=document.getElementById("chatMessages");
