@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="frontend")
 CORS(app, resources={r"/*": {"origins": "*"}})
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
@@ -62,7 +62,13 @@ def add_cors_headers(response):
     return response
 
 
-# ── Web chat endpoint (used by index.html) ──────────────────────────────────
+# ── Serve frontend ───────────────────────────────────────────────────────────
+@app.route("/")
+def index():
+    return app.send_static_file("index.html")
+
+
+# ── Web chat endpoint (used by index.html) ───────────────────────────────────
 @app.route("/chat", methods=["POST", "OPTIONS"])
 def chat():
     if request.method == "OPTIONS":
@@ -92,7 +98,6 @@ def telegram_webhook():
     if not chat_id or not user_text:
         return jsonify({"ok": True})
 
-    # Ignore Telegram commands gracefully
     if user_text.startswith("/start"):
         send_telegram_message(
             chat_id,
