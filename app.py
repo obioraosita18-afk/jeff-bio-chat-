@@ -39,7 +39,7 @@ def ask_groq(user_message, history=None):
     messages.append({"role": "user", "content": user_message})
 
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="llama3-70b-8192", 
         messages=messages,
         temperature=0.7,
         max_tokens=512,
